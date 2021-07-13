@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+}
+li
+{
+    list-style-type: none;
+    margin-left: 22px;
+    font-size: 22px;
+   
+}
+li a
+{
+    text-decoration: none;
+    color: white;
+}
+li a:hover
+{
+    color:purple;
+    background-color: pink;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+ul
+{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 6em;
+   
+}
+
+.navbar
+{
+  background-color: purple;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.login
+{
+    margin: auto;
+    text-align: center;
+    margin-top: 5em;
+    align-items: center;
+    color: #e3638e;
+    text-align: center;
+}
+h1
+{
+    padding-top: 30px;
+    font-size: 35px;
+}
+.box
+{
+    border: 2px solid black;
+    height: 400px;
+    width: 360px;
+    
+}
+input{
+    margin-top: 15px;
+    font-size: 16px;
+}
+.btn
+{ 
+    padding: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: purple;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;    
+}
+.login-successs h1
+{
+ text-align: center;
+  color: rgb(226, 65, 65);
+}
